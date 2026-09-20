@@ -108,6 +108,7 @@ story += [
     Paragraph("Au-delà des pages",styles["PressTitle"]),
     media_table,Spacer(1,7*mm),
     Paragraph("<b>Dans l'Ombre des Livres</b> explore les parcours d'auteurs et la réalité du monde éditorial : publication, rémunération, visibilité, premiers romans, maisons d'édition et coulisses du livre.",styles["Body2"]),
+    Paragraph("<b>Écouter :</b> <link href='https://open.spotify.com/show/033r9RLPAxfJIBCkVPx3eZ' color='#721a2d'>Spotify</link> · <link href='https://podcasts.apple.com/fr/podcast/dans-lombre-des-livres/id6813591154' color='#721a2d'>Apple Podcasts</link>",styles["Body2"]),
     Paragraph("<b>BFM DICI · 2 octobre 2025</b> — entretien télévisé autour du parcours d'auteur et de l'univers de <i>Ravenscrow</i>.<br/><link href='https://www.dailymotion.com/video/x9rkasw' color='#721a2d'>Voir l'interview sur Dailymotion</link>",styles["Body2"]),
     Paragraph("<b>Rencontres sélectionnées :</b> E.Leclerc Gap (29 novembre 2025), Intermarché Saint-Pons (23 mai 2026), Librairie de la Presse à Digne-les-Bains (4 juillet 2026).",styles["Body2"]),
     Spacer(1,3*mm),
