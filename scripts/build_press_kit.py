@@ -65,7 +65,7 @@ story += [
     Spacer(1,2*mm),
     Paragraph("<b>Contact auteur & presse</b> · arthur.ncls@icloud.com",styles["Body2"]),
     Paragraph("<b>Contact podcast</b> · danslombredeslivres@gmail.com",styles["Body2"]),
-    Paragraph("Instagram · @artncls_auteur · Site · https://arthurncls.github.io/",styles["Small2"]),
+    Paragraph("Instagram · @artncls_auteur · Site · https://arthurnicolas.fr/",styles["Small2"]),
     PageBreak()
 ]
 
@@ -116,7 +116,7 @@ story += [
     Paragraph("Interviews, dédicaces, tables rondes, salons, interventions et échanges autour de l'écriture, de la dark fantasy et de la réalité du monde du livre.",styles["Body2"]),
     Paragraph("<b>Contact auteur & presse :</b> arthur.ncls@icloud.com",styles["Body2"]),
     Paragraph("<b>Contact podcast :</b> danslombredeslivres@gmail.com",styles["Body2"]),
-    Paragraph("Visuels HD et informations complémentaires : https://arthurncls.github.io/presse.html",styles["Small2"]),
+    Paragraph("Visuels HD et informations complémentaires : https://arthurnicolas.fr/presse.html",styles["Small2"]),
 ]
 
 doc.build(story,onFirstPage=page,onLaterPages=page)
