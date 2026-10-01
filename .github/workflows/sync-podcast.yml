@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-podcast-rss
-  cancel-in-progress: true
+  group: site-main-writes
+  cancel-in-progress: false
 
 jobs:
   sync:
