@@ -2,7 +2,7 @@
 
 Site officiel d'Arthur Nicolas.
 
-**Site public : https://arthurncls.github.io/**
+**Site public : https://arthurnicolas.fr/**
 
 Ce dépôt contient le site vitrine consacré à l'auteur, à **Requiem — La Saga des Ombres**, aux rencontres et interventions, ainsi qu'au podcast **Dans l'Ombre des Livres**.
 
