@@ -242,3 +242,23 @@ footer{display:flex;justify-content:space-between;gap:24px;padding:30px clamp(24
   .press-page,.legal-page{padding:62px 20px 90px}
   .press-facts,.asset-grid{grid-template-columns:1fr}
 }
+
+/* Prix Odyssée 2027 et Salon du livre de Pusignan */
+.odyssee-callout{display:flex;gap:22px;align-items:flex-start;margin:30px 0 34px;padding:25px 28px;border:1px solid rgba(199,165,112,.35);background:linear-gradient(120deg,rgba(114,26,45,.16),rgba(11,12,16,.93));}
+.odyssee-symbol{display:block;flex:none;margin-top:1px;font-family:var(--serif);font-size:2rem;line-height:1;color:#c8a979}
+.odyssee-kicker{margin:0 0 6px!important;font-size:.68rem!important;letter-spacing:.17em;text-transform:uppercase;color:#c8a979!important}
+.odyssee-callout h3{font-size:clamp(1.75rem,2.8vw,2.55rem);line-height:1.07;margin:0 0 10px}
+.odyssee-callout p:last-child{font-size:.9rem;color:#bdb5bc;line-height:1.65;margin:0}
+.odyssee-callout strong{font-weight:600;color:#e4d5bd}
+.upcoming-event{grid-template-columns:minmax(185px,.56fr) minmax(0,1.5fr) auto;align-items:center;gap:clamp(22px,3vw,54px)}
+.upcoming-date{align-self:start;border-right:1px solid rgba(255,255,255,.12);padding-right:18px}
+.upcoming-date time{display:block;font-family:var(--serif);font-size:clamp(2.2rem,4vw,4.2rem);line-height:1.06;color:#eddfd2;white-space:nowrap}
+.upcoming-date time span{display:block;margin-top:5px;font-family:var(--sans);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#a9a0a7}
+.upcoming-details h3{font-size:clamp(2rem,3.1vw,3.15rem);margin:0 0 15px;line-height:1.1}
+.upcoming-details p{font-size:.9rem;line-height:1.6;color:#ada7ae;margin:0 0 14px}
+.upcoming-details .upcoming-venue{color:#d1cbd0}
+.upcoming-details .upcoming-venue strong{font-weight:600}
+.upcoming-details .upcoming-hours{color:#c2a88b;font-size:.82rem;margin-bottom:0}
+.upcoming-event>a{align-self:end}
+@media(max-width:1000px){.upcoming-event{grid-template-columns:1fr}.upcoming-date{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);padding:0 0 19px}.upcoming-event>a{justify-self:start}}
+@media(max-width:640px){.odyssee-callout{gap:14px;margin:22px 0 28px;padding:20px 17px}.odyssee-symbol{font-size:1.5rem}.upcoming-event{padding:24px 20px}.upcoming-date time{font-size:3rem;white-space:normal}.upcoming-details h3{font-size:2.1rem}.upcoming-details .upcoming-hours{line-height:1.7}}
