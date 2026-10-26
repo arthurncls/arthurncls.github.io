@@ -49,7 +49,7 @@ def page(canvas,doc):
 
 story=[]
 story += [
-    Paragraph("KIT PRESSE · 2026",styles["Eyebrow"]),
+    Paragraph("KIT PRESSE · 2026–2027",styles["Eyebrow"]),
     Paragraph("Arthur Nicolas",styles["TitleBig"]),
     Paragraph("Auteur · dark fantasy urbaine · thriller gothique",styles["PressSub"])
 ]
@@ -87,7 +87,9 @@ ft.setStyle(TableStyle([("FONTNAME",(0,0),(0,-1),"SansB"),("FONTNAME",(1,0),(1,-
                         ("FONTSIZE",(0,0),(-1,-1),8.8),("TEXTCOLOR",(0,0),(0,-1),WINE),
                         ("TEXTCOLOR",(1,0),(1,-1),TEXT),("BOTTOMPADDING",(0,0),(-1,-1),6),
                         ("TOPPADDING",(0,0),(-1,-1),6),("LINEBELOW",(0,0),(-1,-1),0.25,colors.HexColor("#d8d3d0"))]))
-story += [ft,Spacer(1,7*mm)]
+story += [ft,Spacer(1,4*mm),
+    Paragraph("<b>Prix Odyssée 2027 :</b> <i>Requiem</i> a été sélectionné pour participer dans la catégorie <b>Imaginaire</b>.",styles["Body2"]),
+    Spacer(1,3*mm)]
 story += [
     Paragraph("PRÉSENTATION",styles["Eyebrow"]),
     Paragraph("Dix ans après le meurtre de ses parents, Thomas Gray, justicier spectral né d'un pacte infernal, enquête avec la journaliste Stella Frost sur des crimes qui relient la pègre, la mairie et les fondations occultes de Ravenscrow, jusqu'à découvrir que l'entité qu'il traque, la ville qu'il veut sauver et la puissance qu'il porte appartiennent au même piège.",styles["Body2"]),
@@ -111,7 +113,8 @@ story += [
     Paragraph("<b>Dans l'Ombre des Livres</b> explore les parcours d'auteurs et la réalité du monde éditorial : publication, rémunération, visibilité, premiers romans, maisons d'édition et coulisses du livre.",styles["Body2"]),
     Paragraph("<b>Écouter :</b> <link href='https://open.spotify.com/show/033r9RLPAxfJIBCkVPx3eZ' color='#721a2d'>Spotify</link> · <link href='https://podcasts.apple.com/fr/podcast/dans-lombre-des-livres/id6813591154' color='#721a2d'>Apple Podcasts</link>",styles["Body2"]),
     Paragraph("<b>BFM DICI · 2 octobre 2025</b> — entretien télévisé autour du parcours d'auteur et de l'univers de <i>Ravenscrow</i>.<br/><link href='https://www.dailymotion.com/video/x9rkasw' color='#721a2d'>Voir l'interview sur Dailymotion</link>",styles["Body2"]),
-    Paragraph("<b>Rencontres sélectionnées :</b> E.Leclerc Gap (29 novembre 2025), Intermarché Saint-Pons (23 mai 2026), Librairie de la Presse à Digne-les-Bains (4 juillet 2026).",styles["Body2"]),
+    Paragraph("<b>À venir — Salon du livre de Pusignan :</b> 18 et 19 septembre 2027, participation confirmée au Centre culturel de l'Odyssée, 3 allée de l'Odyssée, 69330 Pusignan. Samedi 10 h–18 h, dimanche 10 h–17 h.",styles["Body2"]),
+    Paragraph("<b>Rencontres passées :</b> E.Leclerc Gap (29 novembre 2025), Intermarché Saint-Pons (23 mai 2026), Librairie de la Presse à Digne-les-Bains (4 juillet 2026).",styles["Body2"]),
     Spacer(1,3*mm),
     Paragraph("POUR LES PROFESSIONNELS",styles["Eyebrow"]),
     Paragraph("Interviews, dédicaces, tables rondes, salons, interventions et échanges autour de l'écriture, de la dark fantasy et de la réalité du monde du livre.",styles["Body2"]),
