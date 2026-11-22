@@ -262,3 +262,19 @@ footer{display:flex;justify-content:space-between;gap:24px;padding:30px clamp(24
 .upcoming-event>a{align-self:end}
 @media(max-width:1000px){.upcoming-event{grid-template-columns:1fr}.upcoming-date{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);padding:0 0 19px}.upcoming-event>a{justify-self:start}}
 @media(max-width:640px){.odyssee-callout{gap:14px;margin:22px 0 28px;padding:20px 17px}.odyssee-symbol{font-size:1.5rem}.upcoming-event{padding:24px 20px}.upcoming-date time{font-size:3rem;white-space:normal}.upcoming-details h3{font-size:2.1rem}.upcoming-details .upcoming-hours{line-height:1.7}}
+
+
+/* Home editorial blog announcement */
+.blog-teaser{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(34px,6vw,110px);align-items:center;background:radial-gradient(circle at 90% 6%,rgba(114,26,45,.19),transparent 42%),#0b0b10;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.blog-teaser-intro h2{font-family:var(--serif);font-size:clamp(3rem,5.5vw,6.2rem);line-height:.98;font-weight:600;margin:15px 0 25px}
+.blog-teaser-intro h2 em{color:#d9bb95;font-weight:500}
+.blog-teaser-intro>p:not(.eyebrow){max-width:440px;color:#aaa4ab;font-size:1rem;margin:0 0 30px}
+.blog-teaser-card{display:flex;flex-direction:column;justify-content:center;min-height:410px;padding:clamp(28px,4vw,55px);border:1px solid rgba(213,178,132,.35);background:linear-gradient(135deg,rgba(23,19,25,.96),rgba(9,10,14,.99));color:inherit;text-decoration:none;transition:border-color .2s,transform .2s}
+.blog-teaser-card:hover{transform:translateY(-3px);border-color:#c1a07c}
+.blog-teaser-category{font-size:.67rem;text-transform:uppercase;letter-spacing:.14em;color:#c6a47a}
+.blog-teaser-card h3{font-family:var(--serif);font-size:clamp(2.3rem,3.75vw,4.1rem);font-weight:600;line-height:1.01;margin:22px 0}
+.blog-teaser-card p{font-size:.89rem;line-height:1.75;color:#aba5ac;max-width:490px;margin:0 0 28px}
+.blog-teaser-link{font-size:.83rem;color:#e5bd8d;align-self:start;border-bottom:1px solid rgba(213,178,132,.5);padding-bottom:4px}
+@media(max-width:1100px){.blog-teaser{grid-template-columns:1fr}.blog-teaser-card{min-height:0}}
+@media(max-width:640px){.blog-teaser-intro h2{font-size:clamp(3rem,11vw,4.8rem)}.blog-teaser-card{padding:25px}.blog-teaser-card h3{font-size:clamp(2.3rem,9vw,3.3rem)}}
+@media(prefers-reduced-motion:reduce){.blog-teaser-card{transition:none}}
